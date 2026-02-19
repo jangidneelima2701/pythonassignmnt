@@ -1,6 +1,5 @@
-x=int(input("Enter the first number : "))
-y=int(input("Enter the second number: "))
-print("Addition:",x+y)
-print("Subtraction:",x-y)
-print("Multiplication:",x*y)
-print("Division:",x/y)
+x=int(input("Enter a number:"))
+if x%2==0:
+    print(f"{x} is an even number.")
+else:
+    print(f"{x} is an odd number.")
